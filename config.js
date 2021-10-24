@@ -11,26 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Clark',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'おはようございます！',
+  greetingAfternoon: 'こんにちは,',
+  greetingEvening: 'こんばんは,',
+  greetingNight: 'おやすみ！',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherKey: 'e30912fb0e0b77fff771b184d1fd8ab0',
+  weatherIcons: 'White', // 'Nord', 'Dark', 'White'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '36.778259',
+  defaultLongitude: '-119.417931',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -48,7 +48,7 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/mail/u/0/#inbox',
     },
     {
       id: '3',
@@ -72,7 +72,7 @@ const CONFIG = {
       id: '6',
       name: 'Odysee',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com/',
     },
   ],
 
@@ -81,45 +81,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
+  firstListIcon: 'book',
   secondListIcon: 'coffee',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Jisho',
+        link: 'https://jisho.org/',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Japanese',
+        link: 'www.guidetojapanese.org/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'MAL',
+        link: 'https://myanimelist.net/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'YOASOBI',
+        link: 'https://www.youtube.com/watch?v=VyvhvlYvRnc',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Keyboards',
+        link: 'https://www.reddit.com/r/MechanicalKeyboards/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Discord',
+        link: 'https://discord.com/channels/@me',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Code',
+        link: 'https://www.w3schools.com/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Ricing',
+        link: 'https://www.reddit.com/r/unixporn/',
       },
     ],
   },

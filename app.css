@@ -18,11 +18,11 @@
   --iconsize: 3vh;
 
   /* Light theme  */
-  --accent: #61b0f1; /* Hover color */
-  --bg: #f5f5f5; /* Background color */
-  --sbg: #e4e6e6; /* Cards color */
+  --accent: #f173b1; /* Hover color */
+  --bg: #383e4c; /* Background color */
+  --sbg: #454c5d; /* Cards color */
 
-  --fg: #3a3a3a; /* Foreground color */
+  --fg: #FFFFFF; /* Foreground color */
   --sfg: #3a3a3a; /* Sceondary Foreground color */
 
   /* Image background  */
@@ -50,6 +50,10 @@
     rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.85)
   ); /* Filter color */
+}
+
+.darkfg {
+  font-family: "AmeChanPopMaru";
 }
 
 /* S T Y L E S */
@@ -160,6 +164,7 @@ body {
 #hour,
 #separator,
 #minutes {
+  font-family: "AmeChanPopMaru";
   font-size: var(--fsg);
   font-weight: bolder;
   color: var(--fg);
@@ -170,6 +175,7 @@ body {
   font-size: var(--fsm);
   font-weight: bold;
   color: var(--fg);
+  font-family: "AmeChanPopMaru";
 }
 
 #day {
@@ -179,6 +185,7 @@ body {
 #greetings {
   font-size: var(--fss);
   color: var(--fg);
+  font-family: "AmeChanPopMaru";
 }
 
 .weather-icon img {
@@ -191,13 +198,16 @@ body {
   font-weight: bolder;
   margin-left: 15px;
   color: var(--fg);
+  font-family: "AmeChanPopMaru";
 }
 
 .temperature-description p {
   font-size: var(--fss);
   margin-left: 15px;
   color: var(--fg);
+  font-family: "AmeChanPopMaru";
 }
+
 
 .buttonLink {
   grid-row: 3 / span 2;
@@ -276,7 +286,7 @@ body {
 }
 .list__link {
   text-decoration: none;
-  font-size: var(--fses);
+  font-size: 30px;
   color: var(--fg);
   margin-top: 1vh;
   padding: 8px 12px;
@@ -284,6 +294,7 @@ body {
   font-weight: bold;
   text-align: center;
   width: 80%;
+  font-family: "AmeChanPopMaru";
 }
 .list__link:hover {
   background-color: var(--accent);
