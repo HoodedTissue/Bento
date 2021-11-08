@@ -93,7 +93,7 @@ const CONFIG = {
       },
       {
         name: 'Japanese',
-        link: 'www.guidetojapanese.org/',
+        link: 'https://www.guidetojapanese.org/',
       },
       {
         name: 'MAL',
