@@ -23,12 +23,12 @@
   --iconsize: 3vh;
 
   /* Light theme  */
-  --accent: #f173b1; /* Hover color */
-  --bg: #383e4c; /* Background color */
-  --sbg: #454c5d; /* Cards color */
+  --accent: #ac82d5; /* Hover color */
+  --bg: #131718; /* Background color */
+  --sbg: #101415; /* Cards color */
 
   --fg: #FFFFFF; /* Foreground color */
-  --sfg: #3a3a3a; /* Sceondary Foreground color */
+  --sfg: #131718; /* Sceondary Foreground color */
 
   /* Image background  */
 
