@@ -18,7 +18,7 @@
   --fsg: 12vh; /* Time and Greetings */
   --fsm: 8vh; /* Date */
   --fss: 3vh; /* Greetings and Weather widger */
-  --fses: 2vh; /* Links List */
+  --fses: 2vh; /* Links List and bruh*/
 
   --iconsize: 3vh;
 
@@ -189,6 +189,12 @@ body {
 
 #greetings {
   font-size: var(--fss);
+  color: var(--fg);
+  font-family: "AmeChanPopMaru";
+}
+
+#bruh {
+  font-size: var(--fses);
   color: var(--fg);
   font-family: "AmeChanPopMaru";
 }
