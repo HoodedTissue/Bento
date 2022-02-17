@@ -17,10 +17,10 @@ const CONFIG = {
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'おはようございます！',
+  greetingMorning: 'おはようございます,',
   greetingAfternoon: 'こんにちは,',
   greetingEvening: 'こんばんは,',
-  greetingNight: 'おやすみ！',
+  greetingNight: 'おやすみ,',
 
   // Weather
   weatherKey: 'e30912fb0e0b77fff771b184d1fd8ab0',
