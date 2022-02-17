@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 @font-face {
-    font-family: "AmeChanPopMaru";
-    src:url(font.otf);
+    font-family: "Sk-Modernist";
+    src:url(Sk-Modernist-Regular.otf);
 }
 
 /* V A R I A B L E S */
@@ -58,7 +58,7 @@
 }
 
 .darkfg {
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 
 /* S T Y L E S */
@@ -169,7 +169,7 @@ body {
 #hour,
 #separator,
 #minutes {
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
   font-size: var(--fsg);
   font-weight: bolder;
   color: var(--fg);
@@ -180,7 +180,7 @@ body {
   font-size: var(--fsm);
   font-weight: bold;
   color: var(--fg);
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 
 #day {
@@ -190,13 +190,13 @@ body {
 #greetings {
   font-size: var(--fss);
   color: var(--fg);
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 
 #bruh {
   font-size: var(--fses);
   color: var(--fg);
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 
 .weather-icon img {
@@ -209,14 +209,14 @@ body {
   font-weight: bolder;
   margin-left: 15px;
   color: var(--fg);
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 
 .temperature-description p {
   font-size: var(--fss);
   margin-left: 15px;
   color: var(--fg);
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 
 
@@ -305,7 +305,7 @@ body {
   font-weight: bold;
   text-align: center;
   width: 80%;
-  font-family: "AmeChanPopMaru";
+  font-family: "Sk-Modernist";
 }
 .list__link:hover {
   background-color: var(--accent);
